@@ -1,5 +1,9 @@
+@use "reset";
+
+$base-size: 1rem;
+
 body {
-    max-width: min(80ch, 100vw - 1rem);
+    max-width: min(80ch, 100vw - $base-size);
     margin-inline: auto;
     background-color:greenyellow;
     text-align: right;
@@ -9,9 +13,15 @@ body {
 
 nav > ul {
     display: flex;
-    gap: 1rem;
+    gap: $base-size;
     list-style: none;
     padding: 0;
+}
+
+picture > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 nav:hover {

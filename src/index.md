@@ -5,9 +5,9 @@ title: Home
 
 # Hello World
 
-![Foul image](/images/flower1.png)
+{% image "./src/images/flower1.png", "Flower", "(min-width: 30em) 50vw, 100vw" %}
 
-{% image "/images/flower1.png", "Evil", "400px", "auto" %}
+{% image "./src/images/snake.jpg", "Snake", "(min-width: 30em) 50vw, 100vw" %}
 
 Världes *bästa* **Hello World** hemsida!
 
