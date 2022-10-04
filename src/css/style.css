@@ -1,0 +1,20 @@
+body {
+    max-width: min(80ch, 100vw - 1rem);
+    margin-inline: auto;
+    background-color:greenyellow;
+    text-align: right;
+    color:navy;
+    font-size: xx-large;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+nav:hover {
+    background-color: gold;
+    color:hotpink;
+}
